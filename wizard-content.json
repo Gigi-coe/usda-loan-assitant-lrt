@@ -13,7 +13,7 @@
                     "buttonText": "GET STARTED",
                     "color": "#065941",
                     "textColor": "white",
-                    "nextSlideId": 2
+                    "nextStepId": 2
                 }
             ]
         },
@@ -35,11 +35,11 @@
                     "buttonText": "START SELF ASSESSMENT",
                     "color": "#094785",
                     "textColor": "white",
-                    "nextSlideId": 3,
+                    "nextStepId": 3,
                     "url": null
                 }
             ],
-            "resetToSlideId": null
+            "resetToStepId": null
         },
         {
             "id": 3,
@@ -59,23 +59,23 @@
                     "buttonText": "BACK",
                     "color": "#34495e",
                     "textColor": "white",
-                    "nextSlideId": 2,
+                    "nextStepId": 2,
                     "url": null
                 },
                 {
                     "buttonText": "YES",
                     "color": "#20a286",
-                    "nextSlideId": 4,
+                    "nextStepId": 4,
                     "url": null
                 },
                 {
                     "buttonText": "NO",
                     "color": "#df5d79",
-                    "nextSlideId": 7,
+                    "nextStepId": 7,
                     "url": null
                 }
             ],
-            "resetToSlideId": null
+            "resetToStepId": null
         },
         {
             "id": 4,
@@ -95,23 +95,23 @@
                     "buttonText": "BACK",
                     "color": "#34495e",
                     "textColor": "white",
-                    "nextSlideId": 3,
+                    "nextStepId": 3,
                     "url": null
                 },
                 {
                     "buttonText": "YES",
                     "color": "#df5d79",
-                    "nextSlideId": 7,
+                    "nextStepId": 7,
                     "url": null
                 },
                 {
                     "buttonText": "NO",
                     "color": "#20a286",
-                    "nextSlideId": 5,
+                    "nextStepId": 5,
                     "url": null
                 }
             ],
-            "resetToSlideId": null
+            "resetToStepId": null
         },
         {
             "id": 5,
@@ -131,23 +131,23 @@
                     "buttonText": "BACK",
                     "color": "#34495e",
                     "textColor": "white",
-                    "nextSlideId": 4,
+                    "nextStepId": 4,
                     "url": null
                 },
                 {
                     "buttonText": "YES",
                     "color": "#df5d79",
-                    "nextSlideId": 7,
+                    "nextStepId": 7,
                     "url": null
                 },
                 {
                     "buttonText": "NO",
                     "color": "#20a286",
-                    "nextSlideId": 6,
+                    "nextStepId": 6,
                     "url": null
                 }
             ],
-            "resetToSlideId": null
+            "resetToStepId": null
         },
         {
             "id": 6,
@@ -167,23 +167,23 @@
                     "buttonText": "BACK",
                     "color": "#34495e",
                     "textColor": "white",
-                    "nextSlideId": 5,
+                    "nextStepId": 5,
                     "url": null
                 },
                 {
                     "buttonText": "YES",
                     "color": "#df5d79",
-                    "nextSlideId": 7,
+                    "nextStepId": 7,
                     "url": null
                 },
                 {
                     "buttonText": "NO",
                     "color": "#20a286",
-                    "nextSlideId": 8,
+                    "nextStepId": 8,
                     "url": null
                 }
             ],
-            "resetToSlideId": null
+            "resetToStepId": null
         },
         {
             "id": 7,
@@ -206,7 +206,7 @@
                     "url": "https://www.farmers.gov/working-with-us/service-center-locator"
                 }
             ],
-            "resetToSlideId": null
+            "resetToStepId": null
         },
         {
             "id": 8,
@@ -224,10 +224,10 @@
                 {
                     "buttonText": "START LOAN DISCOVERY",
                     "color": "#20a286",
-                    "nextSlideId": 9
+                    "nextStepId": 9
                 }
             ],
-            "resetToSlideId": null
+            "resetToStepId": null
         },
         {
             "id": 9,
@@ -246,15 +246,15 @@
                     "buttonText": "YES",
                     "color": "#34495e",
                     "textColor": "white",
-                    "nextSlideId": 10
+                    "nextStepId": 10
                 },
                 {
                     "buttonText": "NO",
                     "color": "#20a286",
-                    "nextSlideId": 14
+                    "nextStepId": 14
                 }
             ],
-            "resetToSlideId": 9
+            "resetToStepId": 9
         },
         {
             "id": 10,
@@ -280,15 +280,15 @@
                     "buttonText": "YES",
                     "color": "#34495e",
                     "textColor": "white",
-                    "nextSlideId": 11
+                    "nextStepId": 11
                 },
                 {
                     "buttonText": "NO",
                     "color": "#20a286",
-                    "nextSlideId": 14
+                    "nextStepId": 14
                 }
             ],
-            "resetToSlideId": 9
+            "resetToStepId": 9
         },
         {
             "id": 11,
@@ -303,10 +303,10 @@
                 {
                     "buttonText": "HOW TO APPLY FOR FUNDS",
                     "color": "#20a286",
-                    "nextSlideId": 12
+                    "nextStepId": 12
                 }
             ],
-            "resetToSlideId": 9
+            "resetToStepId": 9
         },
         {
             "id": 12,
@@ -352,10 +352,10 @@
                 {
                     "buttonText": "START THE LOAN APPLICATION",
                     "color": "#20a286",
-                    "nextSlideId": 13
+                    "nextStepId": 13
                 }
             ],
-            "resetToSlideId": 9
+            "resetToStepId": 9
         },
         {
             "id": 13,
@@ -388,7 +388,7 @@
                     "url": "https://www.farmers.gov/"
                 }
             ],
-            "resetToSlideId": 9
+            "resetToStepId": 9
         },
         {
             "id": 14,
@@ -411,10 +411,10 @@
                 {
                     "buttonText": "NO",
                     "color": "#df5d79",
-                    "nextSlideId": 7
+                    "nextStepId": 7
                 }
             ],
-            "resetToSlideId": 9
+            "resetToStepId": 9
         }
     ]
 }
