@@ -1,6 +1,5 @@
 {
-    "steps": [
-        {
+    "steps": [{
             "id": 1,
             "title": "How to Use the Loan Assistance Tool",
             "type": "video",
@@ -8,14 +7,12 @@
                 "src": "videos/sample-5s.mp4",
                 "captionText": "Watch the short video. Then, click the button below to get started with the Loan Assistance Tool."
             },
-            "buttons": [
-                {
-                    "buttonText": "GET STARTED",
-                    "color": "#065941",
-                    "textColor": "white",
-                    "nextStepId": 2
-                }
-            ]
+            "buttons": [{
+                "buttonText": "GET STARTED",
+                "color": "white",
+                "textColor": "#065941",
+                "nextStepId": 2
+            }]
         },
         {
             "id": 2,
@@ -24,21 +21,17 @@
             "subtitle": null,
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
-                        "paragraphContent": "Answer a short questionnaire to learn whether you meet the basic eligibility qualifications for FSA loans."
-                    }
-                ]
+                "paragraphs": [{
+                    "paragraphContent": "Answer a short questionnaire to learn whether you meet the basic eligibility qualifications for FSA loans."
+                }]
             },
-            "buttons": [
-                {
-                    "buttonText": "START SELF ASSESSMENT",
-                    "color": "#094785",
-                    "textColor": "white",
-                    "nextStepId": 3,
-                    "url": null
-                }
-            ],
+            "buttons": [{
+                "buttonText": "START SELF ASSESSMENT",
+                "textColor": "#094785",
+                "color": "white",
+                "nextStepId": 3,
+                "url": null
+            }],
             "resetToStepId": null
         },
         {
@@ -48,34 +41,31 @@
             "subtitle": null,
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
-                        "paragraphContent": "Are you a United States citizen, non-citizen national or legal resident alien of the United States, including Puerto Rico, the U.S. Virgin Islands, Guam, American Samoa, and certain former Pacific Trust Territories?"
-                    }
-                ]
+                "paragraphs": [{
+                    "paragraphContent": "Are you a United States citizen, non-citizen national or legal resident alien of the United States, including Puerto Rico, the U.S. Virgin Islands, Guam, American Samoa, and certain former Pacific Trust Territories?"
+                }]
             },
-            "buttons": [
-                {
+            "buttons": [{
                     "buttonText": "BACK",
-                    "color": "#34495e",
-                    "textColor": "white",
+                    "textColor": "#34495e",
+                    "color": "white",
                     "nextStepId": 2,
                     "url": null
                 },
                 {
                     "buttonText": "YES",
-                    "color": "#20a286",
+                    "textColor": "#20a286",
                     "nextStepId": 4,
                     "url": null
                 },
                 {
                     "buttonText": "NO",
-                    "color": "#df5d79",
+                    "textColor": "#df5d79",
                     "nextStepId": 7,
                     "url": null
                 }
             ],
-            "resetToStepId": null
+            "resetToStepId": 2
         },
         {
             "id": 4,
@@ -84,34 +74,31 @@
             "subtitle": null,
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
-                        "paragraphContent": "Have you ever been convicted for planting, cultivating, growing, producing, harvesting, storing, trafficking, or possessing controlled substances?"
-                    }
-                ]
+                "paragraphs": [{
+                    "paragraphContent": "Have you ever been convicted for planting, cultivating, growing, producing, harvesting, storing, trafficking, or possessing controlled substances?"
+                }]
             },
-            "buttons": [
-                {
+            "buttons": [{
                     "buttonText": "BACK",
-                    "color": "#34495e",
-                    "textColor": "white",
+                    "textColor": "#34495e",
+                    "color": "white",
                     "nextStepId": 3,
                     "url": null
                 },
                 {
                     "buttonText": "YES",
-                    "color": "#df5d79",
+                    "textColor": "#df5d79",
                     "nextStepId": 7,
                     "url": null
                 },
                 {
                     "buttonText": "NO",
-                    "color": "#20a286",
+                    "textColor": "#20a286",
                     "nextStepId": 5,
                     "url": null
                 }
             ],
-            "resetToStepId": null
+            "resetToStepId": 2
         },
         {
             "id": 5,
@@ -120,34 +107,31 @@
             "subtitle": null,
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
-                        "paragraphContent": "Are you delinquent on a federal debt, other than IRS tax debt (at the time of loan closing)?"
-                    }
-                ]
+                "paragraphs": [{
+                    "paragraphContent": "Are you delinquent on a federal debt, other than IRS tax debt (at the time of loan closing)?"
+                }]
             },
-            "buttons": [
-                {
+            "buttons": [{
                     "buttonText": "BACK",
-                    "color": "#34495e",
-                    "textColor": "white",
+                    "textColor": "#34495e",
+                    "color": "white",
                     "nextStepId": 4,
                     "url": null
                 },
                 {
                     "buttonText": "YES",
-                    "color": "#df5d79",
+                    "textColor": "#df5d79",
                     "nextStepId": 7,
                     "url": null
                 },
                 {
                     "buttonText": "NO",
-                    "color": "#20a286",
+                    "textColor": "#20a286",
                     "nextStepId": 6,
                     "url": null
                 }
             ],
-            "resetToStepId": null
+            "resetToStepId": 2
         },
         {
             "id": 6,
@@ -156,34 +140,31 @@
             "subtitle": null,
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
-                        "paragraphContent": "Are you disqualified as a result of a federal crop insurance violation?"
-                    }
-                ]
+                "paragraphs": [{
+                    "paragraphContent": "Are you disqualified as a result of a federal crop insurance violation?"
+                }]
             },
-            "buttons": [
-                {
+            "buttons": [{
                     "buttonText": "BACK",
-                    "color": "#34495e",
-                    "textColor": "white",
+                    "textColor": "#34495e",
+                    "color": "white",
                     "nextStepId": 5,
                     "url": null
                 },
                 {
                     "buttonText": "YES",
-                    "color": "#df5d79",
+                    "textColor": "#df5d79",
                     "nextStepId": 7,
                     "url": null
                 },
                 {
                     "buttonText": "NO",
-                    "color": "#20a286",
+                    "textColor": "#20a286",
                     "nextStepId": 8,
                     "url": null
                 }
             ],
-            "resetToStepId": null
+            "resetToStepId": 2
         },
         {
             "id": 7,
@@ -192,21 +173,17 @@
             "subtitle": null,
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
-                        "paragraphContent": "If you feel like this is an error, or would like to discuss your specific situation, contact your local USDA Service Center."
-                    }
-                ]
+                "paragraphs": [{
+                    "paragraphContent": "If you feel like this is an error, or would like to discuss your specific situation, contact your local USDA Service Center."
+                }]
             },
-            "buttons": [
-                {
-                    "buttonText": "FIND YOUR LOCAL SERVICE CENTER",
-                    "color": "#094785",
-                    "textColor": "white",
-                    "url": "https://www.farmers.gov/working-with-us/service-center-locator"
-                }
-            ],
-            "resetToStepId": null
+            "buttons": [{
+                "buttonText": "FIND YOUR LOCAL SERVICE CENTER",
+                "textColor": "#094785",
+                "color": "white",
+                "url": "https://www.farmers.gov/working-with-us/service-center-locator"
+            }],
+            "resetToStepId": 2
         },
         {
             "id": 8,
@@ -214,19 +191,15 @@
             "title": "Based on your responses to the self assessment you may meet the basic eligibility requirements to proceed.",
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
-                        "paragraphContent": "Click the button below to answer a few short questions to discover which USDA farm loans are right for you."
-                    }
-                ]
+                "paragraphs": [{
+                    "paragraphContent": "Click the button below to answer a few short questions to discover which USDA farm loans are right for you."
+                }]
             },
-            "buttons": [
-                {
-                    "buttonText": "START LOAN DISCOVERY",
-                    "color": "#20a286",
-                    "nextStepId": 9
-                }
-            ],
+            "buttons": [{
+                "buttonText": "START LOAN DISCOVERY",
+                "textColor": "#20a286",
+                "nextStepId": 9
+            }],
             "resetToStepId": null
         },
         {
@@ -235,22 +208,19 @@
             "title": "Funding Agricultural Youth Projects",
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
-                        "paragraphContent": "Will you be between the ages 10 and 20 at the time of loan closing?"
-                    }
-                ]
+                "paragraphs": [{
+                    "paragraphContent": "Will you be between the ages 10 and 20 at the time of loan closing?"
+                }]
             },
-            "buttons": [
-                {
+            "buttons": [{
                     "buttonText": "YES",
-                    "color": "#34495e",
-                    "textColor": "white",
+                    "textColor": "#34495e",
+                    "color": "white",
                     "nextStepId": 10
                 },
                 {
                     "buttonText": "NO",
-                    "color": "#20a286",
+                    "textColor": "#20a286",
                     "nextStepId": 14
                 }
             ],
@@ -263,8 +233,7 @@
             "subtitle": "Associated with 4-H or FFA",
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
+                "paragraphs": [{
                         "paragraphContent": "FSA makes loans to individual young persons to start and operate income-producing projects of modest size in connection with their participation in 4-H clubs, FFA, a Tribal youth group, or similar agricultural youth organization."
                     },
                     {
@@ -275,16 +244,15 @@
                     }
                 ]
             },
-            "buttons": [
-                {
+            "buttons": [{
                     "buttonText": "YES",
-                    "color": "#34495e",
-                    "textColor": "white",
+                    "textColor": "#34495e",
+                    "color": "white",
                     "nextStepId": 11
                 },
                 {
                     "buttonText": "NO",
-                    "color": "#20a286",
+                    "textColor": "#20a286",
                     "nextStepId": 14
                 }
             ],
@@ -299,13 +267,11 @@
                 "src": "videos/sample-5s.mp4",
                 "captionText": "Watch the short video to learn about the Youth Loan Program. Then, click the below button to learn what you will need to apply for Youth Loan funds."
             },
-            "buttons": [
-                {
-                    "buttonText": "HOW TO APPLY FOR FUNDS",
-                    "color": "#20a286",
-                    "nextStepId": 12
-                }
-            ],
+            "buttons": [{
+                "buttonText": "HOW TO APPLY FOR FUNDS",
+                "textColor": "#20a286",
+                "nextStepId": 12
+            }],
             "resetToStepId": 9
         },
         {
@@ -314,47 +280,41 @@
             "title": "What You Will Need to Apply",
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
-                        "paragraphContent": {
-                            "type": "numbered",
-                            "bullets": [
-                                {
-                                    "bulletContent": "A recommendation from a project advisor to verify that they:",
-                                    "subBullets": {
-                                        "type": "unordered",
-                                        "bullets": [
-                                            {
-                                                "bulletContent": "Will sponsor you and your project"
-                                            },
-                                            {
-                                                "bulletContent": "Have the correct training and experience to supervise your project"
-                                            },
-                                            {
-                                                "bulletContent": "Are available to help whenever needed"
-                                            }
-                                        ]
-                                    }
-                                },
-                                {
-                                    "bulletContent": "Your parent(s) and/or legal guardian(s) consent to the loan application.",
-                                    "subBullets": null
-                                },
-                                {
-                                    "bulletContent": "Completed loan application."
+                "paragraphs": [{
+                    "paragraphContent": {
+                        "type": "numbered",
+                        "bullets": [{
+                                "bulletContent": "A recommendation from a project advisor to verify that they:",
+                                "subBullets": {
+                                    "type": "unordered",
+                                    "bullets": [{
+                                            "bulletContent": "Will sponsor you and your project"
+                                        },
+                                        {
+                                            "bulletContent": "Have the correct training and experience to supervise your project"
+                                        },
+                                        {
+                                            "bulletContent": "Are available to help whenever needed"
+                                        }
+                                    ]
                                 }
-                            ]
-                        }
+                            },
+                            {
+                                "bulletContent": "Your parent(s) and/or legal guardian(s) consent to the loan application.",
+                                "subBullets": null
+                            },
+                            {
+                                "bulletContent": "Completed loan application."
+                            }
+                        ]
                     }
-                ]
+                }]
             },
-            "buttons": [
-                {
-                    "buttonText": "START THE LOAN APPLICATION",
-                    "color": "#20a286",
-                    "nextStepId": 13
-                }
-            ],
+            "buttons": [{
+                "buttonText": "START THE LOAN APPLICATION",
+                "textColor": "#20a286",
+                "nextStepId": 13
+            }],
             "resetToStepId": 9
         },
         {
@@ -363,8 +323,7 @@
             "title": "Applying online? You have options!",
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
+                "paragraphs": [{
                         "paragraphContent": "For your convenience, you have two options for completing your farm loan application online."
                     },
                     {
@@ -375,16 +334,15 @@
                     }
                 ]
             },
-            "buttons": [
-                {
+            "buttons": [{
                     "buttonText": "Submit your application online.",
-                    "color": "#34495e",
-                    "textColor": "white",
+                    "textColor": "#34495e",
+                    "color": "white",
                     "url": "https://www.farmers.gov/"
                 },
                 {
-                    "buttonText": "Apply using the Walk-Through Tool.",
-                    "color": "#20a286",
+                    "buttonText": "Apply using the Form Walk-Through Tool.",
+                    "textColor": "#20a286",
                     "url": "https://www.farmers.gov/"
                 }
             ],
@@ -396,21 +354,41 @@
             "title": "Responsible Party",
             "type": "informational",
             "content": {
-                "paragraphs": [
-                    {
-                        "paragraphContent": "Are you over 18 years old and legally able to accept responsibility for a loan obligation?"
-                    }
-                ]
+                "paragraphs": [{
+                    "paragraphContent": "Are you over 18 years old and legally able to accept responsibility for a loan obligation?"
+                }]
             },
-            "buttons": [
-                {
+            "buttons": [{
                     "buttonText": "YES",
-                    "color": "#20a286",
-                    "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                    "textColor": "#20a286",
+                    "nextStepId": 15
                 },
                 {
                     "buttonText": "NO",
-                    "color": "#df5d79",
+                    "textColor": "#df5d79",
+                    "nextStepId": 7
+                }
+            ],
+            "resetToStepId": 9
+        },
+        {
+            "id": 15,
+            "sectionHeader": "Loan Discover - Direct Loans",
+            "title": "Loan Type",
+            "type": "informational",
+            "content": {
+                "paragraphs": [{
+                    "paragraphContent": "Do you need to borrow more than $50,000?"
+                }]
+            },
+            "buttons": [{
+                    "buttonText": "YES",
+                    "textColor": "#20a286",
+                    "nextStepId": 15
+                },
+                {
+                    "buttonText": "NO",
+                    "textColor": "#34495e",
                     "nextStepId": 7
                 }
             ],
