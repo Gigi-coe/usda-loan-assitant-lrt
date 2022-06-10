@@ -87,7 +87,7 @@ var WizardBuilder = window.WizardBuilder || {};
      * @param {string} captionText  text to caption the video for the purposes of instruction or description
      * @returns {HTMLElement}       <section> element containing video content for embedding in a wizard step
      */
-    function _createVideoContentElement(src, captionText) {
+    function _createVideoContentElement(src, captionText, frameHeigh = 400, frameWidth = 600) {
         let videoSection = document.createElement("section");
 
         // Split the video and caption into two "mdl-grids" to ensure they're on different "rows" visually
@@ -95,20 +95,32 @@ var WizardBuilder = window.WizardBuilder || {};
         mdlGridVideoElement.classList.add("mdl-grid");
 
         // TODO: Modify or make configurable via the wizard-content.json
-        // Set current defaults for video
-        let videoElement = document.createElement("video");
-        videoElement.height = 240;
-        videoElement.width = 320;
-        // Add in control to the video player
-        videoElement.setAttribute("controls", "");
-
-        // TODO: Modify wizard-content.json to allow for multiple source files to support multiple video types
-        let videoSourceElement = document.createElement("source");
-        videoSourceElement.src = src;
-        videoSourceElement.type = "video/mp4";
-
-        videoElement.appendChild(videoSourceElement);
-        mdlGridVideoElement.appendChild(videoElement);
+        
+        if(src.includes("http")){
+            // External video
+            let videoElement = document.createElement("iframe");
+            videoElement.height = frameHeigh;
+            videoElement.width = frameWidth;
+            videoElement.src = src;
+            mdlGridVideoElement.appendChild(videoElement);
+        }else{
+            // Intenal video
+            let videoElement = document.createElement("video");
+            videoElement.height = frameHeigh;
+            videoElement.width = frameWidth;
+    
+            // Add in control to the video player
+            videoElement.setAttribute("controls", "");
+    
+            // TODO: Modify wizard-content.json to allow for multiple source files to support multiple video types
+            let videoSourceElement = document.createElement("source");
+            videoSourceElement.src = src;
+            videoSourceElement.type = "video/mp4";
+    
+            videoElement.appendChild(videoSourceElement);
+            mdlGridVideoElement.appendChild(videoElement);
+        }
+        
 
         // Create caption paragraph element
         let mdlGridCaptionElement = document.createElement("div");
@@ -392,6 +404,7 @@ var WizardBuilder = window.WizardBuilder || {};
         stepperElement.appendChild(firstStepElement);
         _mdlWizardItemCount += 1;
         _MDL_STEP_INDEX[firstStep.id].mdlStepNumber = _mdlWizardItemCount;
+        return stepperElement;
     }
 
     /**
@@ -431,11 +444,6 @@ var WizardBuilder = window.WizardBuilder || {};
 
         // Add the new step to the Stepper
         stepper.appendChild(newStep);
-        window.scrollTo(0, document.body.scrollHeight);
-
-        // $('html,body').animate({
-        //     scrollTop: newStep.offset().top
-        // }, 'slow');
 
         // Make sure the stepper is "upgraded" to wire up the new step correctly
         stepper.setAttribute('data-upgraded', '');
@@ -443,6 +451,8 @@ var WizardBuilder = window.WizardBuilder || {};
 
         _mdlWizardItemCount += 1;
         targetStep.mdlStepNumber = _mdlWizardItemCount;
+        window.scrollTo(0, document.body.scrollHeight+999);
+
     }
 
     /**

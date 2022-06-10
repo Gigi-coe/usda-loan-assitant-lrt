@@ -4,7 +4,8 @@
             "title": "How to Use the Loan Assistance Tool",
             "type": "video",
             "content": {
-                "src": "videos/sample-5s.mp4",
+                "oldsrc": "videos/sample-5s.mp4",
+                "src": "https://www.youtube.com/embed/dPfq0DrkUSE",
                 "captionText": "Watch the short video. Then, click the button below to get started with the Loan Assistance Tool."
             },
             "buttons": [{
@@ -384,15 +385,132 @@
             "buttons": [{
                     "buttonText": "YES",
                     "textColor": "#20a286",
-                    "nextStepId": 15
+                    "nextStepId": 16
                 },
                 {
                     "buttonText": "NO",
                     "textColor": "#34495e",
-                    "nextStepId": 7
+                    "nextStepId": 18
                 }
             ],
             "resetToStepId": 9
+        },
+        {
+            "id": 16,
+            "sectionHeader": "Loan Discover - Direct Loans",
+            "title": "Emergency Loans",
+            "type": "informational",
+            "content": {
+                "paragraphs": [{
+                    "paragraphContent": "Do you seek emergency relief to offset the impact of a natural disaster?"
+                }]
+            },
+            "buttons": [{
+                    "buttonText": "YES",
+                    "textColor": "#20a286",
+                    "nextStepId": 22
+                },
+                {
+                    "buttonText": "NO",
+                    "textColor": "#34495e",
+                    "nextStepId": 17
+                }
+            ],
+            "resetToStepId": 9
+        },
+        {
+            "id": 17,
+            "sectionHeader": "Loan Discover - Direct Loans",
+            "title": "What are you looking to fund?",
+            "type": "informational",
+            "content": {
+                "paragraphs": [{
+                        "paragraphContent": "What are you looking to fund?"
+                    }
+                ]
+            },
+            "buttons": [{
+                    "buttonText": "Land purchase or construction project (Ownership)",
+                    "textColor": "#20a286",
+                    "nextStepId": 25
+                },
+                {
+                    "buttonText": "Equipment, seed, livestock, etc. (Operating)",
+                    "textColor": "#34495e",
+                    "nextStepId": 28
+                },
+                {
+                    "buttonText": "I am interested in multiple loan types.",
+                    "textColor": "#34495e",
+                    "nextStepId": 30
+                }
+            ],
+            "resetToStepId": 9
+        },
+        {
+            "id": 18,
+            "sectionHeader": "Loan Discovery – Microloans Program",
+            "title": "Who are Microloans intended for?",
+            "type": "informational",
+            "content": {
+                "paragraphs": [{
+                    "paragraphContent": {
+                        "type": "unordered",
+                        "bullets": [{
+                                "bulletContent": "Microloans focus on serving the financing needs of:",
+                                "subBullets": {
+                                    "type": "unordered",
+                                    "bullets": [{
+                                            "bulletContent": "Small farm operations."
+                                        },
+                                        {
+                                            "bulletContent": "Beginning farmers."
+                                        },
+                                        {
+                                            "bulletContent": "Niche and non-traditional farm operations (such as truck farms)."
+                                        },
+                                        {
+                                            "bulletContent": "Farms participating in direct marketing and sales to farmers’ markets, Community Supported Agriculture (CSA), restaurants, or grocery stores."
+                                        },
+                                        {
+                                            "bulletContent": "Farms using hydroponic, aquaponic, organic and vertical growing methods."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "paragraphContent": "Are you seeking a microloan?"
+                }]
+            },
+            "buttons": [{
+                "buttonText": "YES",
+                "textColor": "#20a286",
+                "nextStepId": 19
+            },
+            {
+                "buttonText": "NO",
+                "textColor": "#34495e",
+                "nextStepId": 16
+            }],
+            "resetToStepId": 9
+        },
+        {
+            "id": 19,
+            "title": "Microloan Program",
+            "type": "video",
+            "content": {
+                "src": "https://www.youtube.com/embed/dPfq0DrkUSE",
+                "captionText": "Watch the short video to learn about the Microloan Program. Then, click the below button to learn what you will need to apply for Microloans."
+            },
+            "buttons": [{
+                "buttonText": "HOW TO APPLY FOR FUNDS",
+                "color": "white",
+                "textColor": "#065941",
+                "nextStepId": 20
+            }]
         }
     ]
 }
