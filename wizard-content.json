@@ -1,19 +1,40 @@
 {
     "steps": [{
             "id": 1,
-            "title": "How to Use the Loan Assistance Tool",
-            "type": "video",
+            "sectionHeader": "Welcome",
+            "title": "What is the Loan Assistance Tool (LAT)?",
+            "subtitle": null,
+            "type": "informational",
             "content": {
-                "oldsrc": "videos/sample-5s.mp4",
+                "paragraphs": [{
+                    "paragraphContent": "The LAT is an online product that provides comprehensive guidance to complement the in-person support that applicants currently receive from FSA staff. The LAT is designed to educate applicants about the process, engage applicants by providing clarity on eligibility, equip applicants with information regarding loan requirements, and explain how to complete the forms."
+                },
+                {
+                    "paragraphContent": "The LAT is made up of three modules:"
+                },
+                {
+                    "paragraphContent": {
+                        "type": "numbered",
+                        "bullets": [{
+                                "bulletContent": "Self-Assessment Module to help applicants assess their eligibility for farm loans before beginning the process."
+                            },
+                            {
+                                "bulletContent": "Loan Discovery Module to guide applicants to the appropriate loan types for their situation and a comprehensive documentation checklist noting what should be gathered before beginning the loan application process."
+                            },
+                            {
+                                "bulletContent": "Forms Walkthrough Module to guide applicants step-by-step through the completion of the appropriate application forms, explaining each field in plain language."
+                            }
+                }]
                 "src": "https://www.youtube.com/embed/dPfq0DrkUSE",
-                "captionText": "Watch the short video. Then, click the button below to get started with the Loan Assistance Tool."
+                "captionText": "Watch the short video above. Then, click the button below to get started with the Loan Assistance Tool."
             },
             "buttons": [{
-                "buttonText": "GET STARTED",
+                "buttonText": "Start Using the Tool",
                 "color": "white",
                 "textColor": "#065941",
                 "nextStepId": 2
             }]
+            "resetToStepId": null
         },
         {
             "id": 2,
@@ -23,11 +44,18 @@
             "type": "informational",
             "content": {
                 "paragraphs": [{
-                    "paragraphContent": "Answer a short questionnaire to learn whether you meet the basic eligibility qualifications for FSA loans."
+                    "paragraphContent": "The first step is to determine if you qualify for an FSA Farm Loan. Our short questionnaire will help you learn whether you meet the basic eligibility qualifications for our loans."
+                },
+                {
+                    "paragraphContent": "FSA Farm Loans are a great opportunity for financing a successful farming operation. FSA offers various loan programs to purchase equipment, livestock, farmland and much more."
+                },
+                {
+                    "paragraphContent": "Whether applying for a farm ownership loan or an operating loan, FSA has minimum eligibility requirements each applicant must meet. Click the button below to determine your eligibility."
+"
                 }]
             },
             "buttons": [{
-                "buttonText": "START SELF ASSESSMENT",
+                "buttonText": "Start the Self Assessment",
                 "textColor": "#094785",
                 "color": "white",
                 "nextStepId": 3,
@@ -38,45 +66,12 @@
         {
             "id": 3,
             "sectionHeader": "Eligibility Self Assessment",
-            "title": "Citizenship",
-            "subtitle": null,
-            "type": "informational",
-            "content": {
-                "paragraphs": [{
-                    "paragraphContent": "Are you a United States citizen, non-citizen national or legal resident alien of the United States, including Puerto Rico, the U.S. Virgin Islands, Guam, American Samoa, and certain former Pacific Trust Territories?"
-                }]
-            },
-            "buttons": [{
-                    "buttonText": "BACK",
-                    "textColor": "#34495e",
-                    "color": "white",
-                    "nextStepId": 2,
-                    "url": null
-                },
-                {
-                    "buttonText": "YES",
-                    "textColor": "#20a286",
-                    "nextStepId": 4,
-                    "url": null
-                },
-                {
-                    "buttonText": "NO",
-                    "textColor": "#df5d79",
-                    "nextStepId": 7,
-                    "url": null
-                }
-            ],
-            "resetToStepId": 2
-        },
-        {
-            "id": 4,
-            "sectionHeader": "Eligibility Self Assessment",
             "title": "Convictions",
             "subtitle": null,
             "type": "informational",
             "content": {
                 "paragraphs": [{
-                    "paragraphContent": "Have you ever been convicted for planting, cultivating, growing, producing, harvesting, storing, trafficking, or possessing controlled substances?"
+                    "paragraphContent": "In the last four years, have you been convicted for planting, cultivating, growing, producing, harvesting, storing, trafficking, or possessing controlled substances?"
                 }]
             },
             "buttons": [{
